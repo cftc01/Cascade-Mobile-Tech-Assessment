@@ -1,5 +1,8 @@
 # Technical Assessment
-NOTE: All work for this position is done using Swift and various iOS libraries and frameworks.
+NOTE: All work for this position is done using native languages and frameworks.
+
+Android uses Kotlin and various native Android libraries and frameworks.
+iOS uses Swift and various native iOS libraries and frameworks.
 
 ## Overview
 This exercise is intended to take no longer than 4 hours.  Please limit the detail of your solution with that time in mind.  Please include a README with your submission detailing your solution.
@@ -61,17 +64,17 @@ The following is a snippet of the data you would recieve using the PokeAPI https
 
 Your app should satisfy the following:
 - Allow the user to enter a Pokemon name
-- If the name does not exist an error message should be displayed to the user
-- If the user can purchase the Pokemon he should be greeted with a screen that shows the user summary of the purchase and a complete the purchase buttont that is not connected to anything. 
-- If the user cannot purchase the Pokemon they should be made aware they do not have sufficient funds to purchase the Pokemon.
+- If the Pokemon does not exist the user should be made aware
+- If the user can purchase the Pokemon the user should be greeted with a screen that shows the user a summary of the purchase and a complete the purchase button that is not connected to anything.
+- If the user cannot purchase the Pokemon the user should be made aware they do not have sufficient funds to purchase the Pokemon.
 
 
-Hint: Think of yourself as the user, what information do you need to know about the current status of your account below you will find a sample user profile.
+Hint: Think of yourself as the user, what information do you need to know about the current status of your account and application status to have a good user experience. Below you will find a sample user profile:
 
 ```json
 "user": {
-  "name": "",
-  "last": "",
+  "name": "Your",
+  "last": "Name",
   "accountNumber": 11133344556433443,
   "balance": 12.34,
   "email": "someuser@thedomain.com"
