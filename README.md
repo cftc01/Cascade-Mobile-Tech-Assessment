@@ -89,3 +89,4 @@ ___
 Do not submit a PR. 
 Do not ask for external assistance. 
 Do not share solution or assessment with outside sources.
+Do not reuse previously written code.
